@@ -253,6 +253,9 @@
                                 <state key="normal" title="get moving! 😉">
                                     <color key="titleColor" red="0.38431372549999998" green="0.71372549019999998" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="qP7-gK-trX" kind="show" id="e0n-Iu-qeZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sy0-ZY-LbC">
                                 <rect key="frame" x="41" y="567" width="308" height="53"/>
@@ -262,6 +265,9 @@
                                 <state key="normal" title="time to relax! 😌">
                                     <color key="titleColor" red="0.38431372549999998" green="0.71372549019999998" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="pSO-YH-zxS" kind="show" id="ud4-6E-XKH"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-07-20 at 2.21.47 PM" translatesAutoresizingMaskIntoConstraints="NO" id="1zj-nk-vOI">
                                 <rect key="frame" x="76" y="92" width="237" height="129"/>
@@ -282,7 +288,7 @@
             <objects>
                 <viewController id="qP7-gK-trX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oqQ-PN-YwZ">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Let's get moving!!" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aAH-Mf-kYx">
@@ -318,7 +324,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="cxw-r4-Idf" kind="show" id="lBa-y5-1He"/>
+                                    <segue destination="cxw-r4-Idf" kind="show" id="9FC-9b-OOU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -336,7 +342,7 @@
             <objects>
                 <viewController id="pSO-YH-zxS" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KZL-je-Dqg">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hey, it's time to relax!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAQ-sL-afV">
@@ -372,7 +378,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="cxw-r4-Idf" kind="show" id="dLH-gh-Fnn"/>
+                                    <segue destination="cxw-r4-Idf" kind="show" id="RsU-E2-DDa"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -387,7 +393,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="lBa-y5-1He"/>
+        <segue reference="9FC-9b-OOU"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image from iOS" width="500" height="500"/>
