@@ -13,6 +13,7 @@
 		40FCB3DC26A8BDC100A0768B /* relaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FCB3DB26A8BDC100A0768B /* relaxViewController.swift */; };
 		40FCB3DE26A8BDDE00A0768B /* focusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FCB3DD26A8BDDE00A0768B /* focusViewController.swift */; };
 		40FCB3E026A8BDFE00A0768B /* movingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FCB3DF26A8BDFE00A0768B /* movingViewController.swift */; };
+		C408E08226A8CB18002955EA /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = C408E08126A8CB18002955EA /* Class.swift */; };
 		C476D33A26A767B60019DD75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C476D33926A767B60019DD75 /* AppDelegate.swift */; };
 		C476D33C26A767B60019DD75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C476D33B26A767B60019DD75 /* SceneDelegate.swift */; };
 		C476D33E26A767B60019DD75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C476D33D26A767B60019DD75 /* ViewController.swift */; };
@@ -48,6 +49,7 @@
 		40FCB3DB26A8BDC100A0768B /* relaxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = relaxViewController.swift; sourceTree = "<group>"; };
 		40FCB3DD26A8BDDE00A0768B /* focusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = focusViewController.swift; sourceTree = "<group>"; };
 		40FCB3DF26A8BDFE00A0768B /* movingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movingViewController.swift; sourceTree = "<group>"; };
+		C408E08126A8CB18002955EA /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
 		C476D33626A767B60019DD75 /* Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C476D33926A767B60019DD75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C476D33B26A767B60019DD75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,13 @@
 		C476D32D26A767B60019DD75 = {
 			isa = PBXGroup;
 			children = (
+				C408E08126A8CB18002955EA /* Class.swift */,
+				40FCB3DF26A8BDFE00A0768B /* movingViewController.swift */,
+				40FCB3DD26A8BDDE00A0768B /* focusViewController.swift */,
+				40FCB3DB26A8BDC100A0768B /* relaxViewController.swift */,
+				40FCB3D926A8BDA000A0768B /* optionsViewController.swift */,
+				40FCB3D726A8BD7E00A0768B /* feelingViewController.swift */,
+				40FCB3D526A8BD4A00A0768B /* nameViewController.swift */,
 				C476D33826A767B60019DD75 /* Final Project */,
 				C476D35226A767B70019DD75 /* Final ProjectTests */,
 				C476D35D26A767B70019DD75 /* Final ProjectUITests */,
@@ -117,12 +126,6 @@
 				C476D33B26A767B60019DD75 /* SceneDelegate.swift */,
 				C476D33D26A767B60019DD75 /* ViewController.swift */,
 				C476D33F26A767B60019DD75 /* Main.storyboard */,
-				40FCB3DF26A8BDFE00A0768B /* movingViewController.swift */,
-				40FCB3DD26A8BDDE00A0768B /* focusViewController.swift */,
-				40FCB3DB26A8BDC100A0768B /* relaxViewController.swift */,
-				40FCB3D926A8BDA000A0768B /* optionsViewController.swift */,
-				40FCB3D726A8BD7E00A0768B /* feelingViewController.swift */,
-				40FCB3D526A8BD4A00A0768B /* nameViewController.swift */,
 				C476D34526A767B70019DD75 /* Assets.xcassets */,
 				C476D34726A767B70019DD75 /* LaunchScreen.storyboard */,
 				C476D34A26A767B70019DD75 /* Info.plist */,
@@ -280,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C476D33E26A767B60019DD75 /* ViewController.swift in Sources */,
+				C408E08226A8CB18002955EA /* Class.swift in Sources */,
 				40FCB3DA26A8BDA000A0768B /* optionsViewController.swift in Sources */,
 				40FCB3D826A8BD7E00A0768B /* feelingViewController.swift in Sources */,
 				C476D33A26A767B60019DD75 /* AppDelegate.swift in Sources */,

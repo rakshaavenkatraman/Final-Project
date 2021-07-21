@@ -1,5 +1,5 @@
 //
-//  feelingViewController.swift
+//  nameViewController.swift
 //  Final Project
 //
 //  Created by Rakshaa Venkatraman on 7/21/21.
@@ -7,8 +7,17 @@
 
 import UIKit
 
-class feelingViewController: UIViewController {
+class nameViewController: UIViewController {
 
+    @IBOutlet weak var nameInput: UITextField!
+    
+    
+    @IBAction func nameNextButton(_ sender: UIButton) {
+        
+        
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

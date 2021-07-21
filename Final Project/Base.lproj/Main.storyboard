@@ -75,6 +75,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="nameNextButton:" destination="FRp-rV-a5K" eventType="touchUpInside" id="L77-ZB-Idu"/>
                                     <segue destination="ePK-Ab-EiB" kind="show" id="vKa-vh-Iig"/>
                                 </connections>
                             </button>
@@ -83,6 +84,9 @@
                         <color key="backgroundColor" red="0.79215686269999996" green="0.91372549020000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="NvM-xe-mX5"/>
+                    <connections>
+                        <outlet property="nameInput" destination="eG7-HN-nI4" id="5rK-l3-lGt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KIY-Cq-PV2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -103,7 +107,7 @@
                                 <color key="textColor" red="0.1058823529" green="0.28627450980000002" blue="0.39607843139999999" alpha="0.9136870507" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" placeholder  " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LuG-JV-k92">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" placeholder  " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LuG-JV-k92">
                                 <rect key="frame" x="52" y="470" width="286" height="184"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -135,30 +139,46 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="55"/>
                                 <state key="normal" title="😊"/>
+                                <connections>
+                                    <action selector="happyClicked:" destination="ePK-Ab-EiB" eventType="touchUpInside" id="7kc-93-9cL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y50-Vu-8W6">
                                 <rect key="frame" x="201" y="359" width="91" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="55"/>
                                 <state key="normal" title="😭"/>
+                                <connections>
+                                    <action selector="sadClicked:" destination="ePK-Ab-EiB" eventType="touchUpInside" id="bK1-6y-dmg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RgG-6S-Z7y">
                                 <rect key="frame" x="282" y="359" width="91" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="55"/>
                                 <state key="normal" title="😡"/>
+                                <connections>
+                                    <action selector="madClicked:" destination="ePK-Ab-EiB" eventType="touchUpInside" id="Dsr-BM-c3Y"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cEq-V0-n6H">
                                 <rect key="frame" x="114" y="359" width="91" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="55"/>
                                 <state key="normal" title="😐"/>
+                                <connections>
+                                    <action selector="okayClicked:" destination="ePK-Ab-EiB" eventType="touchUpInside" id="bIn-he-8l6"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zaT-yU-j0G"/>
                         <color key="backgroundColor" red="0.79215686269999996" green="0.91372549020000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="FfY-IC-pqW"/>
+                    <connections>
+                        <outlet property="feelingsSurveyResponse" destination="LuG-JV-k92" id="Lq1-L1-agi"/>
+                        <outlet property="greetingLabel" destination="MNw-WF-lTb" id="l3D-JT-WhT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lnh-0I-mZI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -393,7 +413,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="9FC-9b-OOU"/>
+        <segue reference="fdR-WX-egD"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image from iOS" width="500" height="500"/>
