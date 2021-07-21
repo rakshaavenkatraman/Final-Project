@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home Page-->
+        <!--homePageViewController-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="Home Page" id="BYZ-38-t0r" customClass="ViewController" customModule="Final_Project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="homePageViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -41,10 +41,10 @@
             </objects>
             <point key="canvasLocation" x="20" y="93.838862559241704"/>
         </scene>
-        <!--View Controller-->
+        <!--nameViewController-->
         <scene sceneID="JxQ-Wu-Kgi">
             <objects>
-                <viewController id="FRp-rV-a5K" sceneMemberID="viewController">
+                <viewController title="nameViewController" id="FRp-rV-a5K" customClass="nameViewController" customModule="Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="maJ-og-emh">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -88,10 +88,10 @@
             </objects>
             <point key="canvasLocation" x="750.76923076923072" y="93.838862559241704"/>
         </scene>
-        <!--View Controller-->
+        <!--feelingViewController-->
         <scene sceneID="glJ-Kn-i7M">
             <objects>
-                <viewController id="ePK-Ab-EiB" sceneMemberID="viewController">
+                <viewController title="feelingViewController" id="ePK-Ab-EiB" customClass="feelingViewController" customModule="Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="11g-cD-mIJ">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -164,10 +164,10 @@
             </objects>
             <point key="canvasLocation" x="1504.6153846153845" y="93.838862559241704"/>
         </scene>
-        <!--View Controller-->
+        <!--focusViewController-->
         <scene sceneID="pq9-9t-Ufk">
             <objects>
-                <viewController id="rgc-UR-fgx" sceneMemberID="viewController">
+                <viewController title="focusViewController" id="rgc-UR-fgx" customClass="focusViewController" customModule="Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Or9-1h-Mvr">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -218,10 +218,10 @@
             </objects>
             <point key="canvasLocation" x="2207.6923076923076" y="-579.38388625592415"/>
         </scene>
-        <!--View Controller-->
+        <!--optionsViewController-->
         <scene sceneID="TfX-ma-zCq">
             <objects>
-                <viewController id="cxw-r4-Idf" sceneMemberID="viewController">
+                <viewController title="optionsViewController" id="cxw-r4-Idf" customClass="optionsViewController" customModule="Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OJd-Sn-lCF">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -283,10 +283,10 @@
             </objects>
             <point key="canvasLocation" x="2209.2307692307691" y="93.838862559241704"/>
         </scene>
-        <!--View Controller-->
+        <!--movingViewController-->
         <scene sceneID="DdR-ES-2lk">
             <objects>
-                <viewController id="qP7-gK-trX" sceneMemberID="viewController">
+                <viewController title="movingViewController" id="qP7-gK-trX" customClass="movingViewController" customModule="Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oqQ-PN-YwZ">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -337,10 +337,10 @@
             </objects>
             <point key="canvasLocation" x="2187.6923076923076" y="783.41232227488149"/>
         </scene>
-        <!--View Controller-->
+        <!--relaxViewController-->
         <scene sceneID="dO6-vu-sL4">
             <objects>
-                <viewController id="pSO-YH-zxS" sceneMemberID="viewController">
+                <viewController title="relaxViewController" id="pSO-YH-zxS" customClass="relaxViewController" customModule="Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KZL-je-Dqg">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -393,7 +393,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="RsU-E2-DDa"/>
+        <segue reference="9FC-9b-OOU"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image from iOS" width="500" height="500"/>
