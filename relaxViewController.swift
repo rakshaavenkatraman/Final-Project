@@ -9,6 +9,16 @@ import UIKit
 
 class relaxViewController: UIViewController {
 
+    @IBAction func relaxingYoga(_ sender: Any) {
+        let yoga = URL (string: "https://www.youtube.com/watch?v=Nw2oBIrQGLo")
+        UIApplication.shared.open(yoga!)
+    }
+    
+    @IBAction func breathingExercise(_ sender: Any) {
+        let breathe = URL (string: "https://www.youtube.com/watch?v=TXNECaIJPDI")
+        UIApplication.shared.open(breathe!)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

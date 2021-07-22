@@ -9,6 +9,21 @@ import UIKit
 
 class movingViewController: UIViewController {
 
+    @IBAction func yogaPilatesWorkout(_ sender: Any) {
+        let pilates = URL (string: "https://www.youtube.com/watch?v=Qbl_ziuBX_4")
+        UIApplication.shared.open(pilates!)
+    }
+    
+    @IBAction func hiitWorkout(_ sender: Any) {
+        let workout = URL (string:"https://www.youtube.com/watch?v=VQfTpFOXdYk")
+        UIApplication.shared.open(workout!)
+    }
+    
+    @IBAction func zumba(_ sender: Any) {
+        let zumba = URL (string:"https://www.youtube.com/watch?v=9_MxwQw10RI")
+        UIApplication.shared.open(zumba!)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

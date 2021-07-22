@@ -221,6 +221,7 @@
                                 </state>
                                 <connections>
                                     <action selector="newFocusTask:" destination="rgc-UR-fgx" eventType="touchUpInside" id="UE1-Xj-c5d"/>
+                                    <action selector="studyMusicButton:" destination="rgc-UR-fgx" eventType="touchUpInside" id="8ha-GT-DFh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSU-bQ-mfy">
@@ -245,6 +246,19 @@
                                 </state>
                                 <connections>
                                     <action selector="meditationButton:" destination="rgc-UR-fgx" eventType="touchUpInside" id="tRs-VK-yE2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F0H-ht-BNa">
+                                <rect key="frame" x="39" y="450" width="306" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.38431372549999998" green="0.71372549019999998" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="28"/>
+                                <state key="normal" title="Time Management">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="newFocusTask:" destination="rgc-UR-fgx" eventType="touchUpInside" id="DKg-aG-SQx"/>
+                                    <action selector="timeManagePomodoro:" destination="rgc-UR-fgx" eventType="touchUpInside" id="1xP-wK-YJI"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -347,6 +361,7 @@
                                 </state>
                                 <connections>
                                     <action selector="newFocusTask:" destination="rgc-UR-fgx" eventType="touchUpInside" id="YbW-DX-Dzs"/>
+                                    <action selector="yogaPilatesWorkout:" destination="qP7-gK-trX" eventType="touchUpInside" id="GxG-Lv-CVo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HQS-TS-lMN">
@@ -370,6 +385,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="hiitWorkout:" destination="qP7-gK-trX" eventType="touchUpInside" id="7mO-gf-AUd"/>
                                     <action selector="newFocusTask:" destination="rgc-UR-fgx" eventType="touchUpInside" id="ZKW-Qu-FF4"/>
                                 </connections>
                             </button>
@@ -378,11 +394,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.38431372549999998" green="0.71372549019999998" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="28"/>
-                                <state key="normal" title="Just Dance">
+                                <state key="normal" title="Zumba">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="newFocusTask:" destination="rgc-UR-fgx" eventType="touchUpInside" id="s9H-MG-9zq"/>
+                                    <action selector="zumba:" destination="qP7-gK-trX" eventType="touchUpInside" id="xOL-vr-tZ6"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -432,6 +449,7 @@
                                 </state>
                                 <connections>
                                     <action selector="newFocusTask:" destination="rgc-UR-fgx" eventType="touchUpInside" id="UpO-0w-hzL"/>
+                                    <action selector="relaxingYoga:" destination="pSO-YH-zxS" eventType="touchUpInside" id="C26-El-mCc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbQ-qf-Pnj">
@@ -443,6 +461,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="breathingExercise:" destination="pSO-YH-zxS" eventType="touchUpInside" id="EFb-q5-n2n"/>
                                     <action selector="newFocusTask:" destination="rgc-UR-fgx" eventType="touchUpInside" id="lIA-ql-a5r"/>
                                 </connections>
                             </button>

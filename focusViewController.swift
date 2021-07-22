@@ -14,6 +14,16 @@ class focusViewController: UIViewController {
         UIApplication.shared.open(meditation!)
     }
     
+    @IBAction func studyMusicButton(_ sender: Any) {
+        let studyMusic = URL (string:"https://www.youtube.com/watch?v=sjkrrmBnpGE")
+        UIApplication.shared.open(studyMusic!)
+    }
+    
+    @IBAction func timeManagePomodoro(_ sender: Any) {
+        let timeManage = URL (string: "https://www.youtube.com/watch?v=1Cv0kCB59J4")
+        UIApplication.shared.open(timeManage!)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
