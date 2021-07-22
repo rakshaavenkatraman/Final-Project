@@ -127,13 +127,6 @@
                                     <segue destination="cxw-r4-Idf" kind="show" id="fdR-WX-egD"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How are you feeling today?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kmz-Yt-ZAO">
-                                <rect key="frame" x="39" y="250" width="320" height="83"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="28"/>
-                                <color key="textColor" red="0.10588235294117647" green="0.28627450980392155" blue="0.396078431372549" alpha="0.9136870507" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WbF-Jd-hmT">
                                 <rect key="frame" x="16" y="358" width="91" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -220,8 +213,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="newFocusTask:" destination="rgc-UR-fgx" eventType="touchUpInside" id="UE1-Xj-c5d"/>
-                                    <action selector="studyMusicButton:" destination="rgc-UR-fgx" eventType="touchUpInside" id="8ha-GT-DFh"/>
+                                    <action selector="studyMusic:" destination="rgc-UR-fgx" eventType="touchUpInside" id="9AI-Uo-OUU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSU-bQ-mfy">
@@ -257,8 +249,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="newFocusTask:" destination="rgc-UR-fgx" eventType="touchUpInside" id="DKg-aG-SQx"/>
-                                    <action selector="timeManagePomodoro:" destination="rgc-UR-fgx" eventType="touchUpInside" id="1xP-wK-YJI"/>
+                                    <action selector="timeManagePomodoro:" destination="rgc-UR-fgx" eventType="touchUpInside" id="Hdb-Xc-OB2"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -504,11 +495,31 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="azc-zr-SkS">
-                                <rect key="frame" x="44" y="253" width="302" height="34"/>
+                                <rect key="frame" x="44" y="378" width="302" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kmz-Yt-ZAO">
+                                <rect key="frame" x="16" y="142" width="358" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Remember, this is your space. Journal to clear your thoughts. Feel free to write whatever you want. No one will be able to see it but you. </string>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="21"/>
+                                <color key="textColor" red="0.10588235294117647" green="0.28627450980392155" blue="0.396078431372549" alpha="0.9136870507" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CoT-QS-PZA">
+                                <rect key="frame" x="135" y="685" width="121" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.38431372549999998" green="0.71372549019999998" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="28"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="pSO-YH-zxS" kind="show" id="VHC-fT-yLF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tNm-6F-6lV"/>
                         <color key="backgroundColor" red="0.79215686269999996" green="0.91372549020000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -521,6 +532,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="VHC-fT-yLF"/>
         <segue reference="yJz-Rt-Aar"/>
     </inferredMetricsTieBreakers>
     <resources>

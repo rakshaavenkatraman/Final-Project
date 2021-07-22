@@ -14,13 +14,13 @@ class focusViewController: UIViewController {
         UIApplication.shared.open(meditation!)
     }
     
-    @IBAction func studyMusicButton(_ sender: Any) {
-        let studyMusic = URL (string:"https://open.spotify.com/search/study%20music")
-        UIApplication.shared.open(studyMusic!)
+    @IBAction func studyMusic(_ sender: Any) {
+        let study = URL (string:"https://open.spotify.com/search/study%20music")
+        UIApplication.shared.open(study!)
     }
     
     @IBAction func timeManagePomodoro(_ sender: Any) {
-        let timeManage = URL (string: "https://pomofocus.io/")
+        let timeManage = URL (string:"https://www.youtube.com/watch?v=1Cv0kCB59J4")
         UIApplication.shared.open(timeManage!)
     }
     
