@@ -475,6 +475,7 @@
                                 </state>
                                 <connections>
                                     <action selector="newFocusTask:" destination="rgc-UR-fgx" eventType="touchUpInside" id="wcY-b2-AGy"/>
+                                    <segue destination="bIs-W0-g1T" kind="show" id="Bnd-70-z6q"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -486,6 +487,37 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MuP-cV-V78" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2916.9230769230767" y="93.838862559241704"/>
+        </scene>
+        <!--journal-->
+        <scene sceneID="AHm-80-6Vh">
+            <objects>
+                <viewController title="journal" id="bIs-W0-g1T" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8rG-Ye-COm">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="[Name]'s Journal" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cyu-GL-HkV">
+                                <rect key="frame" x="16" y="37" width="358" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="36"/>
+                                <color key="textColor" red="0.1058823529" green="0.28627450980000002" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="azc-zr-SkS">
+                                <rect key="frame" x="44" y="253" width="302" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tNm-6F-6lV"/>
+                        <color key="backgroundColor" red="0.79215686269999996" green="0.91372549020000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oTv-Mn-XZp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0wN-47-xLv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3710.7692307692305" y="114.45497630331754"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
