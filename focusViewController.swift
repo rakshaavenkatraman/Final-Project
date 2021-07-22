@@ -15,7 +15,7 @@ class focusViewController: UIViewController {
     }
     
     @IBAction func studyMusic(_ sender: Any) {
-        let study = URL (string:"https://open.spotify.com/search/study%20music")
+        let study = URL (string:"https://www.youtube.com/watch?v=BTYAsjAVa3I")
         UIApplication.shared.open(study!)
     }
     
