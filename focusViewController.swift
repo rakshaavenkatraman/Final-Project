@@ -9,6 +9,11 @@ import UIKit
 
 class focusViewController: UIViewController {
 
+    @IBAction func meditationButton(_ sender: Any) {
+        let meditation = URL (string:"https://www.youtube.com/watch?v=ausxoXBrmWs")
+        UIApplication.shared.open(meditation!)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
